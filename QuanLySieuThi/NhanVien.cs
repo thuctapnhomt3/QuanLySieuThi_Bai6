@@ -229,57 +229,57 @@ namespace QuanLySieuThi
 
         private void addButton_Click(object sender, EventArgs e)
         {
-            //if (maNVTextBox.Text.Trim().Length != 0 || maNVTextBox.Text.Trim().Equals("NVxxx"))
-            //{
-            //    String query = @"INSERT dbo.NhanVien( maNV ,tenNV, sdt, ngaySinh, gioiTinh, luong, maPhong, maNQL)
-            //                    VALUES  ( '" + maNVTextBox.Text.Trim() + "',N'" + tenNVTextBox.Text.Trim() + "','" 
-            //                                 + sdtTextBox.Text.Trim() + "','" + ngaySinhDateTimePicker.Value.ToString("yyyy/MM/dd").Trim()
-            //                                 + "',N'" + gioiTinhComboBox.SelectedItem.ToString().Trim() + "'," + luongTextBox.Text.Trim() + ",'" 
-            //                                 + phongTextBox.Text.Trim() + "','" + nqlTextBox.Text.Trim() + "')";                
-            //    MessageBox.Show(""+query+"\n" + myControl.ExecuteMyQuery(query));
-            //    showNVData(phongTextBox.Text.Trim());
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Không được để trống mã nhân viên");
-            //}
+            if (maNVTextBox.Text.Trim().Length != 0 || maNVTextBox.Text.Trim().Equals("NVxxx"))
+            {
+                String query = @"INSERT dbo.NhanVien( maNV ,tenNV, sdt, ngaySinh, gioiTinh, luong, maPhong, maNQL)
+                                VALUES  ( '" + maNVTextBox.Text.Trim() + "',N'" + tenNVTextBox.Text.Trim() + "','"
+                                             + sdtTextBox.Text.Trim() + "','" + ngaySinhDateTimePicker.Value.ToString("yyyy/MM/dd").Trim()
+                                             + "',N'" + gioiTinhComboBox.SelectedItem.ToString().Trim() + "'," + luongTextBox.Text.Trim() + ",'"
+                                             + phongTextBox.Text.Trim() + "','" + nqlTextBox.Text.Trim() + "')";
+                MessageBox.Show("" + query + "\n" + myControl.ExecuteMyQuery(query));
+                showNVData(phongTextBox.Text.Trim());
+            }
+            else
+            {
+                MessageBox.Show("Không được để trống mã nhân viên");
+            }
         }
 
         
 
         private void changeButton_Click(object sender, EventArgs e)
         {
-            //if (maNVTextBox.Text.Trim().Length != 0 || maNVTextBox.Text.Trim().Equals("NVxxx"))
-            //{
-            //    string query = @"UPDATE dbo.NhanVien SET tenNV=N'" + tenNVTextBox.Text.Trim() + "',sdt='" + sdtTextBox.Text.Trim()
-            //        + "',ngaySinh='" + ngaySinhDateTimePicker.Value.ToString("yyyy/MM/dd").Trim() + "',gioiTinh=N'" + gioiTinhComboBox.SelectedItem.ToString().Trim()
-            //        + "',luong=" + luongTextBox.Text.Trim() + ",maPhong='" + phongTextBox.Text.Trim() + "',maNQL='" + nqlTextBox.Text.Trim() + "' WHERE maNV= '" + maNVTextBox.Text.Trim() + "'";
-            //    MessageBox.Show("" + myControl.ExecuteMyQuery(query));
-            //    showNVData(phongTextBox.Text.Trim());
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Vui lòng chọn nhân viên");
-            //}
+            if (maNVTextBox.Text.Trim().Length != 0 || maNVTextBox.Text.Trim().Equals("NVxxx"))
+            {
+                string query = @"UPDATE dbo.NhanVien SET tenNV=N'" + tenNVTextBox.Text.Trim() + "',sdt='" + sdtTextBox.Text.Trim()
+                    + "',ngaySinh='" + ngaySinhDateTimePicker.Value.ToString("yyyy/MM/dd").Trim() + "',gioiTinh=N'" + gioiTinhComboBox.SelectedItem.ToString().Trim()
+                    + "',luong=" + luongTextBox.Text.Trim() + ",maPhong='" + phongTextBox.Text.Trim() + "',maNQL='" + nqlTextBox.Text.Trim() + "' WHERE maNV= '" + maNVTextBox.Text.Trim() + "'";
+                MessageBox.Show("" + myControl.ExecuteMyQuery(query));
+                showNVData(phongTextBox.Text.Trim());
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn nhân viên");
+            }
         }
 
         private void deleteButton_Click(object sender, EventArgs e)
         {
-            //string manv = maNVTextBox.Text.Trim();
-            //if (maNVTextBox.Text.Trim().Length != 0 || maNVTextBox.Text.Trim().Equals("NVxxx"))
-            //{
-            //    string query = @"EXEC dbo.xoa_NhanVien @maNV_ = '" + maNVTextBox.Text.Trim() + "'";
-            //    if (MessageBox.Show("Muốn xóa nhân viên! Phải xóa hóa đơn , nhập, xuất hàng liên quan tới nhân viên! ! Bạn chắc chắn muốn xóa ??", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
-            //    {
-            //        MessageBox.Show("" + myControl.ExecuteMyQuery(query));
-            //        showNVData(phongTextBox.Text.Trim());
-            //    }
-            //    // MessageBox.Show("" + myControl.ExecuteMyQuery(query)); 
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Vui lòng chọn quầy hàng");
-            //}
+            string manv = maNVTextBox.Text.Trim();
+            if (maNVTextBox.Text.Trim().Length != 0 || maNVTextBox.Text.Trim().Equals("NVxxx"))
+            {
+                string query = @"EXEC dbo.xoa_NhanVien @maNV_ = '" + maNVTextBox.Text.Trim() + "'";
+                if (MessageBox.Show("Muốn xóa nhân viên! Phải xóa hóa đơn , nhập, xuất hàng liên quan tới nhân viên! ! Bạn chắc chắn muốn xóa ??", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    MessageBox.Show("" + myControl.ExecuteMyQuery(query));
+                    showNVData(phongTextBox.Text.Trim());
+                }
+                // MessageBox.Show("" + myControl.ExecuteMyQuery(query)); 
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn quầy hàng");
+            }
 
 
 
