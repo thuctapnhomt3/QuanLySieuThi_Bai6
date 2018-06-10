@@ -165,31 +165,31 @@ namespace QuanLySieuThi
 
         private void addButton_Click(object sender, EventArgs e)
         {
-            //if (maXuattextBox.Text.Trim().Length != 0 || maXuattextBox.Text.Trim().Equals("XHxxx"))
-            //{
+            if (maXuattextBox.Text.Trim().Length != 0 || maXuattextBox.Text.Trim().Equals("XHxxx"))
+            {
 
-            //    string query = @"INSERT dbo.XuatHang ( maxuat , ngayxuat , mach, manv ) VALUES  ( '" + maXuattextBox.Text.Trim() 
-            //        + "','" + ngayXuattextBox.Text.Trim() + "','" + maNVTextBox.Text.Trim() + "')";
+                string query = @"INSERT dbo.XuatHang ( maxuat , ngayxuat , mach, manv ) VALUES  ( '" + maXuattextBox.Text.Trim()
+                    + "','" + ngayXuattextBox.Text.Trim() + "','" + maNVTextBox.Text.Trim() + "')";
 
-            //    MessageBox.Show("" + myControl.ExecuteMyQuery(query));
-            //    showData();
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Vui lòng chọn phiếu xuất");
-            //}
+                MessageBox.Show("" + myControl.ExecuteMyQuery(query));
+                showData();
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn phiếu xuất");
+            }
         }
 
         private void UpdateButton_Click(object sender, EventArgs e)
         {
-            //if (maXuattextBox.Text.Trim().Length != 0 || maXuattextBox.Text.Trim().Equals("XHxxx"))
-            //{
-            //    string query = @"UPDATE dbo.XuatHang SET maxuat ='" + maXuattextBox.Text.Trim() + "',ngayxuat = '" 
-            //        + ngayXuattextBox.Text.Trim() + "' , manv = '" + maNVTextBox.Text.Trim() + "' WHERE  maxuat = '" 
-            //        + maXuattextBox.Text.Trim() + "'";
-            //    MessageBox.Show("" + myControl.ExecuteMyQuery(query));  
-            //    showData();
-            //}
+            if (maXuattextBox.Text.Trim().Length != 0 || maXuattextBox.Text.Trim().Equals("XHxxx"))
+            {
+                string query = @"UPDATE dbo.XuatHang SET maxuat ='" + maXuattextBox.Text.Trim() + "',ngayxuat = '"
+                    + ngayXuattextBox.Text.Trim() + "' , manv = '" + maNVTextBox.Text.Trim() + "' WHERE  maxuat = '"
+                    + maXuattextBox.Text.Trim() + "'";
+                MessageBox.Show("" + myControl.ExecuteMyQuery(query));
+                showData();
+            }
         }
 
         void DeleteNhBymanhap(string maxuat)
@@ -200,22 +200,22 @@ namespace QuanLySieuThi
 
         private void DelButton_Click(object sender, EventArgs e)
         {
-            //string maxuat = maXuattextBox.Text.Trim();
-            //if (maXuattextBox.Text.Trim().Length != 0 || maXuattextBox.Text.Trim().Equals("XHxxx"))
-            //{
-            //    string query = @"DELETE dbo.XuatHang WHERE maxuat = '" + maXuattextBox.Text.Trim() + "'";
-            //    string query2 = @"DELETE dbo.SpXuat WHERE maxuat = '" + maXuattextBox.Text.Trim() + "'";
-            //    if (MessageBox.Show("Bạn có muốn xóa không ??", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
-            //    {
-            //        myControl.ExecuteMyQuery(query2);
-            //        MessageBox.Show("" + myControl.ExecuteMyQuery(query));
-            //        showData();
-            //    }
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Vui lòng chọn quầy hàng");
-            //}
+            string maxuat = maXuattextBox.Text.Trim();
+            if (maXuattextBox.Text.Trim().Length != 0 || maXuattextBox.Text.Trim().Equals("XHxxx"))
+            {
+                string query = @"DELETE dbo.XuatHang WHERE maxuat = '" + maXuattextBox.Text.Trim() + "'";
+                string query2 = @"DELETE dbo.SpXuat WHERE maxuat = '" + maXuattextBox.Text.Trim() + "'";
+                if (MessageBox.Show("Bạn có muốn xóa không ??", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    myControl.ExecuteMyQuery(query2);
+                    MessageBox.Show("" + myControl.ExecuteMyQuery(query));
+                    showData();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn quầy hàng");
+            }
 
 
         }
@@ -265,47 +265,47 @@ namespace QuanLySieuThi
 
         private void addButton2_Click(object sender, EventArgs e)
         {
-            //if (maXuattextBox.Text.Trim().Length != 0)
-            //{
-            //    string query = @"INSERT dbo.SpXuat VALUES  ( '" + maXuattextBox2.Text.Trim() + "','" + maSPtextBox2.Text.Trim() + "'," + soLuongNumericUpDown.Value.ToString().Trim() + "  )";
-            //    MessageBox.Show("" + myControl.ExecuteMyQuery(query));  
-            //    ShowDataXuatHang();
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Vui lòng chọn phiếu xuất");
-            //}
+            if (maXuattextBox.Text.Trim().Length != 0)
+            {
+                string query = @"INSERT dbo.SpXuat VALUES  ( '" + maXuattextBox2.Text.Trim() + "','" + maSPtextBox2.Text.Trim() + "'," + soLuongNumericUpDown.Value.ToString().Trim() + "  )";
+                MessageBox.Show("" + myControl.ExecuteMyQuery(query));
+                ShowDataXuatHang();
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn phiếu xuất");
+            }
         }
 
         private void updateButton2_Click(object sender, EventArgs e)
         {
-            //if (maXuattextBox.Text.Trim().Length != 0)
-            //{
-            //    string query = @"UPDATE dbo.SpXuat SET mamh = '" + maSPtextBox2.Text.Trim() + "', soluong = '" + soLuongNumericUpDown.Value.ToString().Trim() + "' WHERE maxuat ='" + maXuattextBox2.Text.Trim() + "'";
-            //    MessageBox.Show("" + myControl.ExecuteMyQuery(query));  
-            //    ShowDataXuatHang();
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Vui lòng chọn phiếu xuất");
-            //}
+            if (maXuattextBox.Text.Trim().Length != 0)
+            {
+                string query = @"UPDATE dbo.SpXuat SET mamh = '" + maSPtextBox2.Text.Trim() + "', soluong = '" + soLuongNumericUpDown.Value.ToString().Trim() + "' WHERE maxuat ='" + maXuattextBox2.Text.Trim() + "'";
+                MessageBox.Show("" + myControl.ExecuteMyQuery(query));
+                ShowDataXuatHang();
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn phiếu xuất");
+            }
         }
 
         private void delButton2_Click(object sender, EventArgs e)
         {
-            //if (maXuattextBox.Text.Trim().Length != 0)
-            //{
-            //    string query = @"DELETE dbo.SpXuat WHERE maxuat = '" + maXuattextBox2.Text.Trim() + "' AND mamh = '" + maSPtextBox2.Text.Trim() + "'";
-            //    if (MessageBox.Show("Bạn có muốn xóa không ??", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
-            //    {
-            //        MessageBox.Show("" + myControl.ExecuteMyQuery(query));
-            //        ShowDataXuatHang();
-            //    }
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Vui lòng chọn quầy hàng");
-            //}
+            if (maXuattextBox.Text.Trim().Length != 0)
+            {
+                string query = @"DELETE dbo.SpXuat WHERE maxuat = '" + maXuattextBox2.Text.Trim() + "' AND mamh = '" + maSPtextBox2.Text.Trim() + "'";
+                if (MessageBox.Show("Bạn có muốn xóa không ??", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    MessageBox.Show("" + myControl.ExecuteMyQuery(query));
+                    ShowDataXuatHang();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn quầy hàng");
+            }
 
 
 
