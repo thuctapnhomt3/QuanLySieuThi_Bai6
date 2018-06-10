@@ -287,51 +287,51 @@ namespace QuanLySieuThi
 
         private void searchButton_Click(object sender, EventArgs e)
         {
-            //switch (searchModeComboBox.SelectedItem.ToString().Trim())
-            //{
-            //    case "Mã nhân viên":
-            //        {
-            //            string query = @"SELECT * FROM dbo.NhanVien WHERE maNV LIKE '%" + searchTextBox.Text.Trim()+ "%'";
-            //            dataGridView1.DataSource = getData(query);
-            //            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            //            break;
-            //        }
-            //    case "Tên nhân viên":
-            //        {
-            //            string query = @"SELECT * FROM dbo.NhanVien WHERE tenNV LIKE N'%" + searchTextBox.Text.Trim() + "%'";
-            //            dataGridView1.DataSource = getData(query);
-            //            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            //            break;
-            //        }
-            //    case "Số điện thoại":
-            //        {
-            //            string query = @"SELECT * FROM dbo.NhanVien WHERE sdt LIKE '%" + searchTextBox.Text.Trim() + "%'";
-            //            dataGridView1.DataSource = getData(query);
-            //            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            //            break;
-            //        }
-            //    case "Ngày sinh":
-            //        {
-            //            string query = @"SELECT * FROM dbo.NhanVien WHERE ngaySinh BETWEEN '" + searchDateTextBox1.Text.Trim() + "' AND '" + searchDateTextBox2.Text.Trim()+"'";
-            //            dataGridView1.DataSource = getData(query);
-            //            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            //            break;
-            //        }
-            //    case "Giới tính":
-            //        {
-            //            string query = @"SELECT * FROM dbo.NhanVien WHERE gioiTinh LIKE N'%" + searchSexComboBox.SelectedItem.ToString().Trim() + "%'";
-            //            dataGridView1.DataSource = getData(query);
-            //            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            //            break;
-            //        }
-            //    case "Lương":
-            //        {
-            //            string query = @"SELECT * FROM dbo.NhanVien WHERE Luong BETWEEN "+ searchLuongTextBox1.Text.Trim()+" AND "+ searchLuongTextBox2.Text.Trim();
-            //            dataGridView1.DataSource = getData(query);
-            //            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            //            break;
-            //        }
-            //}          
+            switch (searchModeComboBox.SelectedItem.ToString().Trim())
+            {
+                case "Mã nhân viên":
+                    {
+                        string query = @"SELECT * FROM dbo.NhanVien WHERE maNV LIKE '%" + searchTextBox.Text.Trim() + "%'";
+                        dataGridView1.DataSource = getData(query);
+                        dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                        break;
+                    }
+                case "Tên nhân viên":
+                    {
+                        string query = @"SELECT * FROM dbo.NhanVien WHERE tenNV LIKE N'%" + searchTextBox.Text.Trim() + "%'";
+                        dataGridView1.DataSource = getData(query);
+                        dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                        break;
+                    }
+                case "Số điện thoại":
+                    {
+                        string query = @"SELECT * FROM dbo.NhanVien WHERE sdt LIKE '%" + searchTextBox.Text.Trim() + "%'";
+                        dataGridView1.DataSource = getData(query);
+                        dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                        break;
+                    }
+                case "Ngày sinh":
+                    {
+                        string query = @"SELECT * FROM dbo.NhanVien WHERE ngaySinh BETWEEN '" + searchDateTextBox1.Text.Trim() + "' AND '" + searchDateTextBox2.Text.Trim() + "'";
+                        dataGridView1.DataSource = getData(query);
+                        dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                        break;
+                    }
+                case "Giới tính":
+                    {
+                        string query = @"SELECT * FROM dbo.NhanVien WHERE gioiTinh LIKE N'%" + searchSexComboBox.SelectedItem.ToString().Trim() + "%'";
+                        dataGridView1.DataSource = getData(query);
+                        dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                        break;
+                    }
+                case "Lương":
+                    {
+                        string query = @"SELECT * FROM dbo.NhanVien WHERE Luong BETWEEN " + searchLuongTextBox1.Text.Trim() + " AND " + searchLuongTextBox2.Text.Trim();
+                        dataGridView1.DataSource = getData(query);
+                        dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                        break;
+                    }
+            }
         }
 
         private void setNQL()
