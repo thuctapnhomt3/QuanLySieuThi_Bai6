@@ -161,29 +161,29 @@ namespace QuanLySieuThi
 
         private void Addbutton_Click(object sender, EventArgs e)
         {
-            //if (MaNhaptextBox.Text.Trim().Length != 0 || MaNhaptextBox.Text.Trim().Equals("NHxxx"))
-            //{
-            //    string query = @"INSERT dbo.NhapHang VALUES ( '" + MaNhaptextBox.Text.Trim() + "','" + NgayNhaptextBox.Text.Trim()
-            //        + "','" + NhaCCtextBox.Text.Trim() + "' ,'" + MaNVtextBox.Text.Trim() + "')";
+            if (MaNhaptextBox.Text.Trim().Length != 0 || MaNhaptextBox.Text.Trim().Equals("NHxxx"))
+            {
+                string query = @"INSERT dbo.NhapHang VALUES ( '" + MaNhaptextBox.Text.Trim() + "','" + NgayNhaptextBox.Text.Trim()
+                    + "','" + NhaCCtextBox.Text.Trim() + "' ,'" + MaNVtextBox.Text.Trim() + "')";
 
-            //    MessageBox.Show("" + myControl.ExecuteMyQuery(query));
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Không được để trống mã cửa hàng");
-            //}
+                MessageBox.Show("" + myControl.ExecuteMyQuery(query));
+            }
+            else
+            {
+                MessageBox.Show("Không được để trống mã cửa hàng");
+            }
         }
 
         private void changeButton_Click(object sender, EventArgs e)
         {
-            //if (MaNhaptextBox.Text.Trim().Length != 0 || MaNhaptextBox.Text.Trim().Equals("NHxxx"))
-            //{
-            //    string query = "UPDATE dbo.NhapHang SET manhap='" + MaNhaptextBox.Text.Trim() + "' ,ngaynhap = '"
-            //        + NgayNhaptextBox.Text.Trim() + "',mancc ='"+ NhaCCtextBox.Text.Trim() + "',manv ='" + MaNVtextBox.Text.Trim() 
-            //        + "'WHERE manhap ='"+ MaNhaptextBox.Text.Trim() + "'";
-            //    MessageBox.Show("" + myControl.ExecuteMyQuery(query));  
-            //    showData();
-            //}
+            if (MaNhaptextBox.Text.Trim().Length != 0 || MaNhaptextBox.Text.Trim().Equals("NHxxx"))
+            {
+                string query = "UPDATE dbo.NhapHang SET manhap='" + MaNhaptextBox.Text.Trim() + "' ,ngaynhap = '"
+                    + NgayNhaptextBox.Text.Trim() + "',mancc ='" + NhaCCtextBox.Text.Trim() + "',manv ='" + MaNVtextBox.Text.Trim()
+                    + "'WHERE manhap ='" + MaNhaptextBox.Text.Trim() + "'";
+                MessageBox.Show("" + myControl.ExecuteMyQuery(query));
+                showData();
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -224,22 +224,22 @@ namespace QuanLySieuThi
 
         private void deleteButton_Click(object sender, EventArgs e)
         {
-            //string manhap = MaNhaptextBox.Text.Trim();
-            //if (MaNhaptextBox.Text.Trim().Length != 0 || MaNhaptextBox.Text.Trim().Equals("NHxxx"))
-            //{
-            //    string query = @"DELETE dbo.NhapHang WHERE manhap = '" + MaNhaptextBox.Text.Trim() + "'";
-            //    string query2 = @"DELETE dbo.SpNhap WHERE manhap = '" + MaNhaptextBox.Text.Trim() + "'";
-            //    if (MessageBox.Show("Thông tin phiếu nhập sẽ bị mất\nBạn có muốn xóa không ??", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
-            //    {
-            //        myControl.ExecuteMyQuery(query2);
-            //        MessageBox.Show("" + myControl.ExecuteMyQuery(query));
-            //        showData();
-            //    }
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Vui lòng chọn quầy hàng");
-            //}
+            string manhap = MaNhaptextBox.Text.Trim();
+            if (MaNhaptextBox.Text.Trim().Length != 0 || MaNhaptextBox.Text.Trim().Equals("NHxxx"))
+            {
+                string query = @"DELETE dbo.NhapHang WHERE manhap = '" + MaNhaptextBox.Text.Trim() + "'";
+                string query2 = @"DELETE dbo.SpNhap WHERE manhap = '" + MaNhaptextBox.Text.Trim() + "'";
+                if (MessageBox.Show("Thông tin phiếu nhập sẽ bị mất\nBạn có muốn xóa không ??", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    myControl.ExecuteMyQuery(query2);
+                    MessageBox.Show("" + myControl.ExecuteMyQuery(query));
+                    showData();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn quầy hàng");
+            }
 
 
         }
@@ -270,51 +270,51 @@ namespace QuanLySieuThi
 
         private void addButton2_Click_1(object sender, EventArgs e)
         {
-            //if (MaNhaptextBox2.Text.Trim().Length != 0)
-            //{
-            //    string query = @"INSERT dbo.SpNhap ( manhap, mamh, soluong, mancc )
-            //                VALUES ('" + MaNhaptextBox2.Text.Trim() + "','" + matHangtextBox2.Text.Trim() + "',"
-            //                           + soLuongNumericUpDown.Value + ",'" + NhaCCtextBox2.Text.Trim() + "')";
-            //    MessageBox.Show("" + myControl.ExecuteMyQuery(query));  
-            //    ShowDataNhapHang();
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Vui lòng chọn phiếu nhập");
-            //}
+            if (MaNhaptextBox2.Text.Trim().Length != 0)
+            {
+                string query = @"INSERT dbo.SpNhap ( manhap, mamh, soluong, mancc )
+                            VALUES ('" + MaNhaptextBox2.Text.Trim() + "','" + matHangtextBox2.Text.Trim() + "',"
+                                       + soLuongNumericUpDown.Value + ",'" + NhaCCtextBox2.Text.Trim() + "')";
+                MessageBox.Show("" + myControl.ExecuteMyQuery(query));
+                ShowDataNhapHang();
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn phiếu nhập");
+            }
         }
 
         private void changeButton2_Click(object sender, EventArgs e)
         {
-            //if (MaNhaptextBox2.Text.Trim().Length != 0)
-            //{
-            //    string query = @"UPDATE dbo.SpNhap SET mamh ='" + matHangtextBox2.Text.Trim() + "',soluong ="
-            //        + soLuongNumericUpDown.Value + "WHERE manhap = '" + MaNhaptextBox2.Text.Trim() + "'";
-            //    MessageBox.Show("" + myControl.ExecuteMyQuery(query));  
-            //    ShowDataNhapHang();
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Vui lòng chọn phiếu nhập");
-            //}
+            if (MaNhaptextBox2.Text.Trim().Length != 0)
+            {
+                string query = @"UPDATE dbo.SpNhap SET mamh ='" + matHangtextBox2.Text.Trim() + "',soluong ="
+                    + soLuongNumericUpDown.Value + "WHERE manhap = '" + MaNhaptextBox2.Text.Trim() + "'";
+                MessageBox.Show("" + myControl.ExecuteMyQuery(query));
+                ShowDataNhapHang();
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn phiếu nhập");
+            }
         }
 
         private void Deletebutton2_Click(object sender, EventArgs e)
         {
-            //string manhap = MaNhaptextBox2.Text.Trim();
-            //if (MaNhaptextBox2.Text.Trim().Length != 0)
-            //{
-            //    string query = @"DELETE dbo.SpNhap WHERE manhap= '" + MaNhaptextBox2.Text.Trim() + "' AND mamh = '" + matHangtextBox2.Text.Trim() + "'";
-            //    if (MessageBox.Show("Bạn có muốn xóa không ??", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
-            //    {
-            //        MessageBox.Show("" + myControl.ExecuteMyQuery(query));
-            //        ShowDataNhapHang();
-            //    }
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Vui lòng chọn quầy hàng");
-            //}
+            string manhap = MaNhaptextBox2.Text.Trim();
+            if (MaNhaptextBox2.Text.Trim().Length != 0)
+            {
+                string query = @"DELETE dbo.SpNhap WHERE manhap= '" + MaNhaptextBox2.Text.Trim() + "' AND mamh = '" + matHangtextBox2.Text.Trim() + "'";
+                if (MessageBox.Show("Bạn có muốn xóa không ??", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    MessageBox.Show("" + myControl.ExecuteMyQuery(query));
+                    ShowDataNhapHang();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn quầy hàng");
+            }
         }
         private void NhacccomboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
