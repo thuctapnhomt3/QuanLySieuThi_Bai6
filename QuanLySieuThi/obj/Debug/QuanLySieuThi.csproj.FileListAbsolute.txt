@@ -1,0 +1,109 @@
+c:\users\vuman\onedrive\documents\visual studio 2013\Projects\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe.config
+c:\users\vuman\onedrive\documents\visual studio 2013\Projects\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe
+c:\users\vuman\onedrive\documents\visual studio 2013\Projects\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.pdb
+c:\users\vuman\onedrive\documents\visual studio 2013\Projects\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csprojResolveAssemblyReference.cache
+c:\users\vuman\onedrive\documents\visual studio 2013\Projects\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Form1.resources
+c:\users\vuman\onedrive\documents\visual studio 2013\Projects\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Login.resources
+c:\users\vuman\onedrive\documents\visual studio 2013\Projects\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Properties.Resources.resources
+c:\users\vuman\onedrive\documents\visual studio 2013\Projects\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.GenerateResource.Cache
+c:\users\vuman\onedrive\documents\visual studio 2013\Projects\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
+c:\users\vuman\onedrive\documents\visual studio 2013\Projects\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
+c:\users\vuman\onedrive\documents\visual studio 2013\Projects\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Staff.resources
+c:\users\vuman\onedrive\documents\visual studio 2013\Projects\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.QuayHang.resources
+E:\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe.config
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
+E:\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe
+E:\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.pdb
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csprojResolveAssemblyReference.cache
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Properties.Resources.resources
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.QuayHang.resources
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.GenerateResource.Cache
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.HoaDon.resources
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.KhachHang.resources
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.NhaCC.resources
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.NhapHang.resources
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.XuatHang.resources
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.DangKy.resources
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.quanLyTaiKhoan.resources
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.NhanVien.resources
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.DangNhap.resources
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.CaNhan.resources
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.MainMenu.resources
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\RdlCompile.cache
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\RdlCompile.compiled
+E:\Data\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe.config
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
+E:\Data\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe
+E:\Data\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.pdb
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csprojResolveAssemblyReference.cache
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.DangKy.resources
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.MainMenu.resources
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.HoaDon.resources
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.KhachHang.resources
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.DangNhap.resources
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.NhaCC.resources
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.NhapHang.resources
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.CaNhan.resources
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.quanLyTaiKhoan.resources
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.XuatHang.resources
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Properties.Resources.resources
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.QuayHang.resources
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.NhanVien.resources
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.GenerateResource.Cache
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\RdlCompile.cache
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\RdlCompile.compiled
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.InHoaDon.resources
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe.config
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.pdb
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csprojResolveAssemblyReference.cache
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.DangKy.resources
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.InHoaDon.resources
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.MainMenu.resources
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.HoaDon.resources
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.KhachHang.resources
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.DangNhap.resources
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.NhaCC.resources
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.NhapHang.resources
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.CaNhan.resources
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.quanLyTaiKhoan.resources
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.XuatHang.resources
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Properties.Resources.resources
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.QuayHang.resources
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.NhanVien.resources
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.GenerateResource.Cache
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\RdlCompile.cache
+D:\ki2_nam3\QuanLy_Manh11_4\QuanLy0505\QuanLySieuThi\QuanLySieuThi\obj\Debug\RdlCompile.compiled
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.InHoaDon.resources
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.ThongTinMuaHang.resources
+E:\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.checkPassWordAdmin.resources
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.checkPassWordAdmin.resources
+E:\Data\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.ThongTinMuaHang.resources
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csprojResolveAssemblyReference.cache
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.checkPassWordAdmin.resources
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.DangKy.resources
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.MainMenu.resources
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.HoaDon.resources
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.KhachHang.resources
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.DangNhap.resources
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.NhaCC.resources
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.NhapHang.resources
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.CaNhan.resources
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.quanLyTaiKhoan.resources
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.XuatHang.resources
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Properties.Resources.resources
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.QuayHang.resources
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.NhanVien.resources
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.GenerateResource.Cache
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe.config
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe
+C:\Users\buing\Desktop\BT\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.pdb
+C:\Users\buing\Desktop\New folder (2)\QuanLySieuThi_Bai6\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe.config
+C:\Users\buing\Desktop\New folder (2)\QuanLySieuThi_Bai6\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
+C:\Users\buing\Desktop\New folder (2)\QuanLySieuThi_Bai6\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
