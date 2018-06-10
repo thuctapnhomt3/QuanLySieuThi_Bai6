@@ -131,9 +131,9 @@ namespace QuanLySieuThi
             if (maKHTextBox.Text.Trim().Length != 0 || maKHTextBox.Text.Trim().Equals("KHxxx"))
             {
                 string query = @"INSERT dbo.KHachHang( makh ,tenkh, sdt, diachi)
-                                VALUES  ( '" + maKHTextBox.Text.Trim() + "',N'" + tenKHTextBox.Text.Trim() + "','" 
+                                VALUES  ( '" + maKHTextBox.Text.Trim() + "',N'" + tenKHTextBox.Text.Trim() + "','"
                                              + sdtTextBox.Text.Trim() + "',N'" + diaChiTextBox.Text.Trim() + "')";
-                MessageBox.Show("" + myControl.ExecuteMyQuery(query));  
+                MessageBox.Show("" + myControl.ExecuteMyQuery(query));
                 showData();
             }
             else
@@ -146,10 +146,10 @@ namespace QuanLySieuThi
         {
             if (maKHTextBox.Text.Trim().Length != 0 || maKHTextBox.Text.Trim().Equals("KHxxx"))
             {
-                string query = @"UPDATE dbo.KhachHang SET tenkh=N'" + tenKHTextBox.Text.Trim() + "', sdt='" 
-                    + sdtTextBox.Text.Trim() + "', diachi=N'" + diaChiTextBox.Text.Trim() + "' WHERE makh= '" 
+                string query = @"UPDATE dbo.KhachHang SET tenkh=N'" + tenKHTextBox.Text.Trim() + "', sdt='"
+                    + sdtTextBox.Text.Trim() + "', diachi=N'" + diaChiTextBox.Text.Trim() + "' WHERE makh= '"
                     + maKHTextBox.Text.Trim() + "'";
-                MessageBox.Show("" + myControl.ExecuteMyQuery(query));                 
+                MessageBox.Show("" + myControl.ExecuteMyQuery(query));
                 showData();
             }
             else
